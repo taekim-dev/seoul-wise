@@ -1,16 +1,12 @@
-import React from 'react';
-import Header from './Header';
-import CategoryGrid from './CategoryGrid';
-import Footer from './Footer';
+import { BrowserRouter as Router } from 'react-router-dom';
+import AppRoutes from './Routes';
 
-const App = () => {
+function App() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <CategoryGrid />
-      <Footer />
-    </div>
+    <Router>
+      <AppRoutes />
+    </Router>
   );
-};
+}
 
 export default App;
