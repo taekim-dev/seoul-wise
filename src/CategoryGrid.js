@@ -12,7 +12,7 @@ const CategoryGrid = () => {
 
   return (
     <div className="flex justify-center px-4 sm:px-0">
-      <div className="grid grid-cols-2 gap-2 sm:gap-4 place-items-center max-w-screen-sm">
+      <div className="grid grid-cols-2 gap-2 sm:gap-4 place-items-center sm:max-w-screen-sm w-full">
         {categories.map((title, index) => (
           <CategoryButton key={index} title={title} />
         ))}
