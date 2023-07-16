@@ -2,7 +2,7 @@ import React from 'react';
 
 const CategoryButton = ({ title }) => {
   return (
-    <div className="bg-white text-gray-800 border-gray-300 border-2 shadow-lg py-6 px-4 rounded-lg m-2 sm:w-60 w-full sm:h-60 h-auto flex flex-col justify-center items-center text-center cursor-pointer mx-2">
+    <div className="bg-white text-gray-800 border-gray-300 border-2 shadow-lg py-6 px-2 rounded-lg m-1 sm:w-60 w-full sm:h-60 h-auto flex flex-col justify-center items-center text-center cursor-pointer mx-1">
       <img src={`images/${title}.jpg`} alt={`${title} icon`} className="h-24 w-24 object-contain mb-4"/>
       <p className="text-lg font-semibold">{title}</p>
     </div>
