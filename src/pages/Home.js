@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Header';
-import CategoryGrid from './CategoryGrid';
-import Footer from './Footer';
+import Header from '../components/Header';
+import CategoryGrid from '../components/CategoryGrid';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (

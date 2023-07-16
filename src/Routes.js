@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-import Home from './Home';
-import Category from './Category';
+import Home from './pages/Home';
+import Category from './pages/Category';
 
 const AppRoutes = () => {
   return (
