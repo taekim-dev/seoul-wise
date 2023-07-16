@@ -1,11 +1,16 @@
 import React from 'react';
+import Header from './Header';
+import CategoryGrid from './CategoryGrid';
+import Footer from './Footer';
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-center py-6 font-bold text-2xl">Welcome to SeoulWise</h1>
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <CategoryGrid />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
