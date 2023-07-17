@@ -1,12 +1,16 @@
 import React from 'react';
-import CategoryHeader from './CategoryHeader';
+import CategoryPage from './CategoryPage';
 
 const Food = () => {
+  const top10 = [
+    'Bibimbap',
+    'Kimchi',
+    'Bulgogi',
+    // add more food items...
+  ];
+
   return (
-    <div>
-      <CategoryHeader categoryName="Food" />
-      {/* Rest of your component logic here */}
-    </div>
+    <CategoryPage category="Food" items={top10} />
   );
 };
 
