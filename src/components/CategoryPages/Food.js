@@ -4,9 +4,15 @@ import CategoryPage from './CategoryPage';
 const Food = () => {
   const top10 = [
     'Bibimbap',
+    'Tteokbokki',
+    'Bulgogi',
+    'Gopchang',
+    'Samgyeopsal',
     'Kimchi',
     'Bulgogi',
-    // add more food items...
+    'Jjajangmyeon',
+    'Chimaek',
+    'Instant noodles',
   ];
 
   return (
