@@ -1,13 +1,17 @@
 import React from 'react';
-import CategoryHeader from './CategoryHeader';
+import CategoryPage from './CategoryPage';
 
 const Nature = () => {
-  return (
-    <div>
-      <CategoryHeader categoryName="Nature" />
-      {/* Rest of your component logic here */}
-    </div>
-  );
-};
-
-export default Nature;
+    const top10 = [
+      'nature1',
+      'Kimchi',
+      'Bulgogi',
+      // add more food items...
+    ];
+  
+    return (
+      <CategoryPage category="Nature" items={top10} />
+    );
+  };
+  
+  export default Nature;
